@@ -1,0 +1,149 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+body {
+    background-image: url(/Icons/BG.png);
+
+}
+
+
+.header__section{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+    margin-left:70px;
+    margin-right:0px;
+    
+}
+
+.header__menu {
+
+    display: flex;
+    flex-direction: row;
+    margin-top:92px;
+    flex-wrap: nowrap;
+    
+}
+
+.header__logo{
+    margin-top: 70px;
+    margin-right: 500px;
+    
+}
+
+.header__menu__item {
+    font-weight: 400;
+    font-size: 27px;
+    padding-right:40px;
+    
+}
+
+a {
+    color:#2699BC;
+
+}
+
+
+
+
+
+/* MAIN */
+
+.main__section {
+    margin-left:70px;
+    
+}
+
+.main__text {
+    color:white;
+    margin-bottom:90px;
+   
+}
+
+.main__text__p {
+  font-size: 120px;
+  font-weight: 800px;
+}
+
+
+.main__text2__p {
+    font-size: 30px;
+    font-weight: 800px;
+    color:#2699BC;
+    
+  }
+
+  .search__box_form {
+    font-size: 24px;
+    /* padding-right:300px;
+    padding-bottom: 15px;
+    padding-top: 15px; */
+    height: 85px;
+    width:600px;
+    
+
+  }
+
+  .main__text2 {
+    margin-bottom: 90px;
+  }
+  
+
+  .seaarch__btn {
+    height: 86px;
+    width:90px;
+    background-color: #F03E30;
+    font-size: 24px;
+    color:white;
+
+
+  }
+
+  .img__photo {
+    position: absolute;
+    width: 1370px;
+    height: 1026px;
+    left: 958px;
+    top: 335px;
+
+  }
+
+
